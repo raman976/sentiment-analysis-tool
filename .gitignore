@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+source_files/
+
+# Streamlit
+.streamlit/
+
+# Hugging Face cache (optional)
+~/.cache/huggingface/hub
+
+# OS files
+.DS_Store
+
+# Models folder
+models/
