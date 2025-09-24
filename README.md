@@ -30,8 +30,7 @@ If you want to see the code for **generating these models**, check out the resea
 
 ---
 
-
-## Installation
+## Installation and Start
 
 ```bash
 git clone https://github.com/raman976/sentiment-analysis-tool.git
@@ -40,3 +39,8 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install --upgrade pip
 pip install -r requirements.txt
+streamlit run app.py
+```
+You can launch the app locally using the commands above, or access the **hosted version** directly: [tool](https://mood07.streamlit.app)
+
+
